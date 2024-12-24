@@ -4,7 +4,7 @@ import React from 'react'
 
 const ExplorePropButton = () => {
   return (
-    <button onClick={() => console.log('Click')}>Explore Our Services</button>
+    <button className='bg-green-800 p-2 text-white' onClick={() => console.log('Click')}>Explore Our Services</button>
   )
 }
 
