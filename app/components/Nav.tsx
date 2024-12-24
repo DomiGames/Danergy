@@ -11,19 +11,19 @@ const NavBar = () => {
                     <Image src={'/logo.png'} alt='logo' width={50} height={50}/>
                 </li>
                 <li>
-                    <Link href={''}>Home</Link>
+                    <Link href={'null'}>Home</Link>
                 </li>
                 <li>
-                    <Link href={''}>Blog</Link>
+                    <Link href={'null'}>Blog</Link>
                 </li>
                 <li>
-                    <Link href={''}>Projects</Link>
+                    <Link href={'null'}>Projects</Link>
                 </li>
                 <li>
-                    <Link href={''}>About Us</Link>
+                    <Link href={'null'}>About Us</Link>
                 </li>
                 <li>
-                    <Link href={''}>Contact</Link>
+                    <Link href={'null'}>Contact</Link>
                 </li>
 
             </ul>
