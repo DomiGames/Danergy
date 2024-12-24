@@ -4,15 +4,15 @@ import PowerEnegyButton from './PowerEnegyButton'
 
 const PoweringEnegy = () => {
   return (
-    <div>
-        <div>
-            <h1>
+    <div className='flex justify-between items-center pl-16'>
+        <div className='flex flex-col justify-center pr-96'>
+            <h1 className='font-bold text-4xl'>
                 Powering Your Energy Future
             </h1>
             <p>As energy consultants, we provide tailored, independent guidance to help our clients overcome critical obstacles and make sound investment decisions.</p>
             <PowerEnegyButton />
         </div>
-        <Image src={''} alt='image'/>
+        <Image src='/assets/PowerE.jpg' alt='image' className='w-96' width={150} height={150}/>
     </div>
   )
 }
