@@ -17,7 +17,7 @@ export default function Home() {
       <FeaturedPost/>
       <PoweringEnegy/>
       <Tailored/>
-      <footer>
+      <footer className='flex justify-evenly align-centre p-5 bg-blue-600 mt-10'>
         <p>c davo energy all rights reserved </p>
         <Link href={''}><Image src={''} alt="image"/></Link>
         <Link href={''}><Image src={''} alt="image"/></Link>
